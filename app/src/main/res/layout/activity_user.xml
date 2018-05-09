@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/urshalim"
+    tools:context="com.example.hp1.fairuz.MainActivity">
+
+
+    <EditText
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="اكتب اسمك"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:textColor="#FF0000"/>
+
+    <EditText
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="اختاز اغنيتك المفضلة "
+        android:ems="10"
+        android:id="@+id/editText1" />
+
+    <Button
+        android:text="اضف صورة"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8" />
+
+
+</LinearLayout>
+

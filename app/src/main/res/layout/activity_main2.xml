@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/fairuz7"
+    tools:context="com.example.hp1.fairuz.Info"
+    android:weightSum="1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+
+    <TextView
+        android:text="نهاد رزق وديع حداد،
+        المعروفة بالاسم الفني فيروز مطربة ومغنية لبنانية، ولدت في بيروت بتاريخ 21 نوفمبر/ تشرين الثاني 1935م .
+.        قدّمت مع زوجها الراحل عاصي الرحباني وأخيه منصور الرحباني، المعروفين بالأخوين رحباني،
+ العديد من الأوبريهات والأغاني التي يصل عددها إلى 800 أغنية
+         بدأت الغناء وهي في عمر السادسة تقريباً في عام 1940م، حيث انضمت لكورال الإذاعة اللبنانية. وعندما عرفها حليم الرومي،
+          أطلق عليها اسم فيروز ولحن لها بعض الأغنيات بعد أن رأى فيها موهبة فذة ومستقبلاً كبيراً،
+          ولاقت رواجًا واسعًا في العالم العربي والشرق الأوسط والعديد من دول العالم.
+           فيروز من أقدم فنّاني العالم المستمرين إلى حد اليوم، ومن أفضل الأصوات العربية ومن أعظم مطربي العالم.
+           نالت جوائز و أوسمة عالمية."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textColor="@android:color/background_dark"
+        android:layout_weight="0.51"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold|italic"
+        android:fontFamily="sans-serif" />
+</LinearLayout>
